@@ -1,0 +1,47 @@
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 50vh;
+  width: 100%;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.container:after,
+.container:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 0.5rem;
+  border-color: transparent;
+  border-style: solid;
+  border-radius: 50%;
+}
+
+.container:after {
+  width: 6rem;
+  height: 6rem;
+  border-left: 0.5rem solid black;
+  border-top: 0.5rem solid black;
+  animation: rotate 600ms linear infinite;
+}
+
+.container:before {
+  width: 2rem;
+  height: 2rem;
+  border-left: 0.5rem solid black;
+  border-top: 0.5rem solid black;
+  animation: rotate 600ms reverse linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

@@ -1,0 +1,64 @@
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  position: relative;
+}
+
+.header div:first-child {
+  color: #5e60ce;
+  display: flex;
+  align-items: center;
+}
+
+.header div:first-child > strong {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+}
+
+.header div:first-child > svg {
+  color: #4ea8de;
+  font-size: 3em;
+  margin-right: 1rem;
+}
+
+.header .taskContainer {
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.header .taskContainer input {
+  padding: 10px 30px;
+  width: 87%;
+  max-width: 550px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  color: #f2f2f2;
+  background-color: #333333;
+}
+
+.header .taskContainer button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #1e6f9f;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+}
+
+.header .taskContainer button:not(:disabled):hover {
+  background-color: #4ea8de;
+}
+
+.header .taskContainer button:disabled {
+  cursor: not-allowed;
+}
