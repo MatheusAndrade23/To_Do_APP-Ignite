@@ -18,7 +18,7 @@ _<h2>Demonstração 🎥</h2>_
 
 _<h2>Mas, o que aprendi? 🤔</h2>_
 
-#### Mesmo já tendo uma certa experiência em React, decidi fazer este desafio para consolidar conceitos, aplicar alguns novos e também aproveitei para dar os meus primeiros passdo com o `TypeScript`!
+#### Mesmo já tendo uma certa experiência em React, decidi fazer este desafio para consolidar conceitos, aplicar alguns novos e também aproveitei para dar os meus primeiros passos com o `TypeScript`!
 
 ---
 
