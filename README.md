@@ -28,7 +28,7 @@ _<h2>Como executar localmente ⚙️</h2>_
 - Execute o comando: `npm install` ou `yarn install`.
 - E depois, execute `npm run dev` ou `yarn dev`.
 
-### Pronto! O Projeto já está rodando em `http://localhost:3000`.
+#### Pronto! O Projeto já está rodando em `http://localhost:3000`.
 
 ---
 
