@@ -10,7 +10,6 @@
   <a href="https://github.com/MatheusAndrade23/To_Do_Mobile">Clique para ver a versão Mobile!</a>
 </div>
 
-
 <br>
 
 ---
